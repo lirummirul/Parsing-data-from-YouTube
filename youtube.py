@@ -3,7 +3,7 @@ import requests
 from googleapiclient.discovery import build
 import urllib.request
 
-API_KEY = 'AIzaSyArOhWAx9brvVbuTmUDSSM2zH1oN1ppME0'
+API_KEY = 'ВАШ ТОКЕН'
 
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
